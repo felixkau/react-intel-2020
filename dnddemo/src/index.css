@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table {width: 100%}
+
+table tr{
+    background: #a7a7a7;
+}
+
+table tr:nth-child(2n){
+    background: #0c0c;
+    color: azure;
+}
+table td{
+    padding: 2px;
+}
